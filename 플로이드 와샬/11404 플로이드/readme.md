@@ -20,7 +20,7 @@ sys.stdin = open('11404.txt','r')
 from copy import deepcopy
 
 # 플로이드 와샬 알고리즘
-def floyid():
+def floyd():
     global arr,n,m
 
     dist = [[float('inf')]*(n+1) for _ in range(n+1)]
@@ -67,7 +67,7 @@ for y in range(1,n+1):
         if y == x:
             arr[y][x] = 0
 
-floyid()
+floyd()
 
 # 출력
 for ar in arr[1:]:

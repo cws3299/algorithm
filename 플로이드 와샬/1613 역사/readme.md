@@ -19,7 +19,7 @@ import sys
 sys.stdin = open('1613.txt','r')
 from copy import deepcopy
 
-def floyid():
+def floyd():
     global n,m,arr
 
     dist = [[float('inf')]*(n+1) for _ in range(n+1)]
@@ -59,7 +59,7 @@ for y in range(n+1):
         if y == x:
             arr[y][x] = 0
 
-floyid()
+floyd()
 
 # for ar in arr[1:]:
 #     for a in ar[1:]:
