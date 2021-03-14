@@ -54,7 +54,7 @@ def selectionSort(x):
         for i in range(1, 1+size):
             if x[i] > x[max_i]:
                 max_i = i
-                x[max_i],x[size] = x[size],x[max_i]
+        x[max_i],x[size] = x[size],x[max_i]
 ```
 
 - 버블정렬보다 조금 이해하기가 더 어려웠다.
