@@ -96,7 +96,7 @@ def insertionSort(x):
 def merge_sort(lst):
     if len(lst)<= 1:
         return lst
-    mid = len(lst)
+    mid = len(lst) //2 
     left = lst[:mid]
     right = lst[mid:]
 
