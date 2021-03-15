@@ -108,7 +108,7 @@ def merge_sort(lst):
 
     left1 = merge_sort(left)
     right1 = merge_sort(right)
-    return merge(left1,righr1)
+    return merge(left1,right1)
 
 
 
