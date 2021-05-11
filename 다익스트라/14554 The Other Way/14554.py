@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('16475.txt','r')
+sys.stdin = open('14554.txt','r')
 import heapq
 
 def dijkstra():
